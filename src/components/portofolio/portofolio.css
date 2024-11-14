@@ -1,0 +1,96 @@
+.portofolio__container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+.portofolio__container .box{
+    width: 300px;
+    height: 420px;
+    overflow: hidden;
+    margin-top: 20px;
+    background: #e8e8e8;
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+
+.portofolio__container .box .content{
+    align-items: center;
+    max-width: 100%;
+}
+
+.portofolio__container .box .content .img-box img{
+    align-items: center;
+    /* width: 200px;
+    height: 200px; */
+}
+
+.portofolio__container .box .content .detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.portofolio__container .box .content .detail .info h3{
+    font-size: 14px;
+    text-align: start;
+}
+
+.portofolio__container .box .content .detail button{
+    background-color: #f9ad1d;
+    color: #e8e8e8;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.detail__container{
+    position: absolute;
+    z-index: 1;
+    align-items: center;
+    width: 900px;
+    background: #fff;
+    /* background: #141414; */
+    margin-left: 16%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.detail__container .detail__content {
+    max-width: 100%;
+}
+
+.detail__container .detail__content .close{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    font-size: 26px;
+    padding: 10px 10px 0px 10px;
+}
+
+.detail__container .detail__content .detail__info .img-box{
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 20px; */
+}
+.detail__container .detail__content .detail__info .img-box img{
+    width: 250px;
+    height: 250px;
+}
+
+.detail__container .detail__content .detail__info .portofolio__detail{
+    margin: 10px 35px;
+}
+
+.detail__container .detail__content .detail__info .portofolio__detail h2{
+    font-size: 16px;
+    width: 100%;
+    color: black;
+    font-weight: 200px;
+}

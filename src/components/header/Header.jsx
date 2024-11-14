@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./header.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
 
@@ -27,7 +28,7 @@ const [Toggle, showMenu] = useState(false)
             </li>
 
             <li className="nav__item">
-              <a href="#Portofolio" className="nav__link">
+              <a href="#portofolio" className="nav__link">
                 <i className="uil uil-briefcase-alt nav__icon"></i>Portofolio
               </a>
             </li>
