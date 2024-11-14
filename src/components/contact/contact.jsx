@@ -15,7 +15,7 @@ const Contact = () => {
       </div>
       
       <div className="footer-content address">
-        <h3>Adress</h3>
+        <h3>Address</h3>
         <h4>Yoyakarta</h4>
         <p>Jl. Babarsari Jl. Raya Janti No.15, Janti, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281</p>
 
@@ -33,9 +33,9 @@ const Contact = () => {
         </ul>
       </div>
     </div>
-    <div className="bottom-bar">
-      <p>&copy; 2024 David Digital Solution. All Rights Reserved</p>
-    </div>
+  </div>
+  <div className="copyright">
+      <p>Copyright &copy; 2024 David Digital Solution. All Rights Reserved</p>
   </div>
   </>
  )

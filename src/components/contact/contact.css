@@ -42,11 +42,13 @@ h3{
 .sosial-icons li a{
     padding: 0;
     color: #c0bfbf;
+   align-items: center;
 
 }
 
 .sosial-icons li a i{
     padding: 10px 10px 10px 0px;
+    font-size: 25px;
 }
 
 .sosial-icons li a:hover{
@@ -58,17 +60,15 @@ h3{
 }
 
 
-.bottom-bar{
-    background-color: #f9ad1d;
+.copyright{
+    background-color: #1f1b47;
     text-align: center;
-    padding: 10px 0;
-    margin-top: 50px;
+    padding: 10px;
+    width: 100%;
 }
 
-.bottom-bar p{
-    color: #343434;
-    margin: 0;
-    font-size: 16px;
-    padding: 7px;
-    width: 100%;
+.copyright p{
+    color: #c0bfbf;
+    font-size: 14px;
+    
 }
