@@ -5,6 +5,54 @@
     grid-gap: 25px;
     width: 90%;
     margin: auto;
+   
+}
+
+.img__con{
+    display: grid;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;   
+    position: relative;
+}
+
+.img__con .box__hero{ 
+    background-color: #dbd9e4; 
+    border-radius: 20px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+.img__con .box__hero .detail_hero{ 
+    display: flex;
+    justify-content: space-around;
+    /* padding: 50px; */
+      /* position: absolute; */
+    /* top: 0; */
+}
+
+.img__con .box__hero .detail_hero{
+    align-items: center;
+    color: #242054;
+    /* color: #000; */
+}
+
+.img__con .box__hero .detail_hero .teks__hero .title__hero{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.img__con .box__hero .detail_hero .subtitle__hero{
+    width: 500px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+
+.img__hero{
+    width: 300px;
+    height: 300px;
 }
 
 .portofolio__container .content{

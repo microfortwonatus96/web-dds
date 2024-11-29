@@ -1,0 +1,8 @@
+.detail__container{
+    display: flex;  
+    padding: 6rem 0;
+}
+.detail__container .box-img img{
+    border-radius: 20px;
+    width: 500px;
+}
