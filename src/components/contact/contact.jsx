@@ -9,7 +9,7 @@ const Contact = () => {
     <div className="contact__container" id="contact"> 
       <div className="footer-content">
         <h3>Contact</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta et incidunt earum eum voluptas quos.</p>
+        <p>David Digital Solution adalah agensi media sosial multi-platform yang didedikasikan untuk membantu UMKM bersaing di era digital.</p>
         <p>Email: kddafdd@gmail.com</p>
         <p>Phone: 0877656745476</p>
       </div>
