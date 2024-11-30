@@ -1,3 +1,45 @@
+.img__con{
+    display: grid;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;   
+    position: relative;
+}
+
+.img__con .box__hero{ 
+    background-color: #dbd9e4; 
+    border-radius: 20px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+.img__con .box__hero .detail_hero{ 
+    display: flex;
+    justify-content: space-around;
+}
+
+.img__con .box__hero .detail_hero{
+    align-items: center;
+    color: #242054;
+}
+
+.img__con .box__hero .detail_hero .teks__hero .title__hero{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.img__con .box__hero .detail_hero .subtitle__hero{
+    width: 500px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.img__hero{
+    width: 300px;
+    height: 300px;
+}
+
 .detail__container{
     display: flex;  
     padding: 6rem 0;
@@ -5,4 +47,83 @@
 .detail__container .box-img img{
     border-radius: 20px;
     width: 500px;
+}
+
+@media screen and (max-width: 992px) {
+    .img__con .box__hero{ 
+        height: 220px;
+    }
+
+    .img__hero{
+        width: 220px;
+        height: 220px;
+    }
+    .img__con .box__hero .detail_hero .teks__hero .title__hero{
+        font-size: 30px;
+    }
+    
+    .img__con .box__hero .detail_hero .subtitle__hero{
+        font-size: 12px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .img__con .box__hero{ 
+        height: 200px;
+    }
+
+    .img__hero{
+        width: 200px;
+        height: 200px;
+    }
+    .img__con .box__hero .detail_hero .teks__hero .title__hero{
+        font-size: 25px;
+    }
+    
+    .img__con .box__hero .detail_hero .subtitle__hero{
+        font-size: 12px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .img__con .box__hero{ 
+        height: 130px
+    }
+
+    .img__hero{
+        width: 130px;
+        height: 130px;
+    }
+    .img__con .box__hero .detail_hero .teks__hero .title__hero{
+        font-size: 14px;
+        line-height: 15px;
+    }
+    
+    .img__con .box__hero .detail_hero .subtitle__hero{
+        font-size: 8px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .img__con .box__hero{ 
+        height: 80px
+    }
+
+    .img__hero{
+        width: 80px;
+        height: 80px;
+    }
+    .img__con .box__hero .detail_hero .teks__hero .title__hero{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    
+    .img__con .box__hero .detail_hero .subtitle__hero{
+        font-size: 6px;
+        width: 160px;
+        margin-top: 5px;
+    }
 }
